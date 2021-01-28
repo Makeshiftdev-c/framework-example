@@ -1,0 +1,19 @@
+header {
+  padding: 30px;
+}
+main {
+  width: calc(75% - 60px);
+  float: left;
+  padding: 30px;
+}
+aside {
+  width: calc(25% - 60px);
+  float: left;
+  border-left: none;
+  padding: 30px;
+}
+footer {
+  clear: both;
+  padding: 30px;
+  text-align: center;
+}
