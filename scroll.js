@@ -5,7 +5,7 @@ function splitScroll() {
   if (width >= 1200) {
     new ScrollMagic.Scene({
       offset: 0,
-      duration: "49%",
+      duration: "55%",
       triggerElement: "#scroll-magic-target",
 
       triggerHook: -1,
