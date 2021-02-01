@@ -262,7 +262,7 @@ hr {
 /*----------------- Price Plans -----------------------*/
 
 .wrapper {
-  min-height: calc(100vh - 130px);
+  min-height: calc(100vh - 121px);
   margin-bottom: 50px;
 }
 .single-pricing {
