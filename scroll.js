@@ -12,8 +12,8 @@ function splitScroll() {
     })
       .setPin(".section_1-contents")
       .addIndicators()
-      .addTo(controller);
-    /*.removeIndicators();*/
+      .addTo(controller)
+      .removeIndicators();
   }
 }
 
