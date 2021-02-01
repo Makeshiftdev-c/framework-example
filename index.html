@@ -3,21 +3,146 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Document</title>
+    <title>Home | BandBox</title>
   </head>
   <body>
     <header>
-      <h1>Bootstrap Example</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container-md">
+          <h4
+            class="my-0 mr-md-auto font-weight-normal gradient-border navbar-brand py-0"
+          >
+            <a href="index.html" class="text-white" id="logo"
+              ><span class="gold">Band</span>Box</a
+            >
+          </h4>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+            <span class="navbar-text"
+              >Red Hot Chilli Peppers <span class="gold">Edition</span></span
+            >
+          </div>
+        </div>
+      </nav>
     </header>
-    <main>
-      <p>Install boostrap on this page</p>
-    </main>
-    <aside>
+    <section>
+      <div class="container-fluid p-0">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+            ></li>
+            <li
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+            ></li>
+            <li
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+            ></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="overlay"></div>
+              <img
+                src="https://images.pexels.com/photos/375893/pexels-photo-375893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="hero">
+                <hgroup>
+                  <h1>You Rock</h1>
+                  <h3>Exclusive Events only for our customers.</h3>
+                </hgroup>
+                <button class="btn btn-primary btn-lg" role="button">
+                  See Upcoming Events
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay"></div>
+              <img
+                src="https://images.pexels.com/photos/3536236/pexels-photo-3536236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="hero">
+                <hgroup>
+                  <h1>We are Punk</h1>
+                  <h3>Enjoy Rock'n'roll?... So do we!</h3>
+                </hgroup>
+                <button class="btn btn-primary btn-lg" role="button">
+                  See Upcoming Events
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay"></div>
+              <img
+                src="https://images.pexels.com/photos/1366835/pexels-photo-1366835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="hero">
+                <hgroup>
+                  <h1>We don't Stop</h1>
+                  <h3>
+                    Events round the clock all year round, we hope to see you
+                    around
+                  </h3>
+                </hgroup>
+                <button class="btn btn-primary btn-lg" role="button">
+                  See Upcoming Events
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <main></main>
+    <!--<aside>
       <p>Sidebar Content</p>
-    </aside>
-    <footer>
-      <p>&copy; 2020</p>
+    </aside>-->
+    <script src="src/js/bootstrap.min.js"></script>
+    <footer class="bg-dark d-flex justify-content-center align-items-center">
+      <div class="p-0 m-0">
+        <p class="small text-muted p-0 m-0">
+          &copy; 2020 Copyright:<br />
+          <span class="gold">Makeshiftdev-c.github.io</span>
+        </p>
+      </div>
     </footer>
   </body>
 </html>
