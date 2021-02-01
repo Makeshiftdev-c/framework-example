@@ -619,3 +619,86 @@ iframe {
     padding: 10px 40px;
   }
 }
+
+/* --------------- Cart ---------------- */
+
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: var(--mainTransition);
+  background: #2929298f;
+  z-index: 2;
+  visibility: hidden;
+}
+.sidebar {
+  position: fixed;
+  top: 56px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  z-index: 3;
+  background: #212529;
+  padding: 1.5rem;
+  transition: all 0.6s linear;
+  transform: translateX(100%);
+}
+.showSidebar {
+  transform: translateX(0);
+}
+.showOverlay {
+  visibility: visible;
+}
+@media screen and (min-width: 768px) {
+  .sidebar {
+    width: 30vw;
+    min-width: 450px;
+  }
+}
+
+.close-sidebar {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.sidebar h2 {
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 2rem;
+}
+
+.body-sidebarOpen {
+  overflow: hidden;
+}
+
+/*-------------------------- -----------------------------*/
+.card {
+  padding: 0;
+  margin: 0;
+  background-color: #212529;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 5px black;
+  border: none;
+}
+
+.card:last-of-type {
+  margin-bottom: 100px;
+}
+
+.card .btn.btn-primary,
+.card .btn.btn-primary:hover,
+.card .btn.btn-primary:focus {
+  margin: 0;
+}

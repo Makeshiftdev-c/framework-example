@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/6179cc83eb.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/bootstrap.min.css" />
@@ -199,13 +203,71 @@
         </div>
       </div>
     </main>
-    <!--<aside>
-      <p>Sidebar Content</p>
-    </aside>-->
-    <script src="src/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-    <script src="scroll.js"></script>
+    <aside class="sidebar-overlay">
+      <div class="sidebar">
+        <span class="close-sidebar">
+          <i class="fas fa-times"></i>
+        </span>
+        <h2 class="heading">Events</h2>
+        <div class="sidebar-content row justify-content-center">
+          <!-- sidebar items -->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/2190283/pexels-photo-2190283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                New York Tour <span class="gold">(12/03/2021)</span>
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary btn-lg">Details</a>
+            </div>
+          </div>
+          <!-- sidebar items -->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/3220846/pexels-photo-3220846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                London Tour <span class="gold">(21/06/2021)</span>
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary btn-lg">Details</a>
+            </div>
+          </div>
+          <!-- sidebar items -->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Tokyo Tour <span class="gold">(14/12/2021)</span>
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary btn-lg">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
     <footer class="bg-dark d-flex justify-content-center align-items-center">
       <div class="p-0 m-0">
         <p class="small text-muted p-0 m-0">
@@ -213,6 +275,11 @@
           <span class="gold">Makeshiftdev-c.github.io</span>
         </p>
       </div>
+      <script src="src/js/bootstrap.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+      <script src="scroll.js"></script>
+      <script src="sidebar.js"></script>
     </footer>
   </body>
 </html>
