@@ -4,16 +4,16 @@ function splitScroll() {
   console.log(width);
   if (width >= 1200) {
     new ScrollMagic.Scene({
-      offset: -100,
+      offset: 0,
       duration: 200,
-      triggerElement: ".section_1-contents",
+      triggerElement: "#scroll-magic-target",
 
       triggerHook: -1,
     })
       .setPin(".section_1-contents")
       .addIndicators()
-      .addTo(controller)
-      .removeIndicators();
+      .addTo(controller);
+    /*.removeIndicators();*/
   }
 }
 
