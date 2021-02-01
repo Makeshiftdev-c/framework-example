@@ -613,24 +613,15 @@ iframe {
   }
 }
 
-/* --------------- Cart ---------------- */
-
-:root {
-  --primaryColor: #f09d51;
-  --mainWhite: #fff;
-  --mainBlack: #222;
-  --mainGrey: #ececec;
-  --mainSpacing: 0.1rem;
-  --mainTransition: all 0.3s linear;
-}
+/* --------------- Sidebar ---------------- */
 
 .sidebar-overlay {
   position: fixed;
   top: 0;
   right: 0;
+  bottom: 55.27px;
   width: 100%;
-  height: 100%;
-  transition: var(--mainTransition);
+  transition: all 0.3s linear;
   background: #2929298f;
   z-index: 2;
   visibility: hidden;
@@ -639,9 +630,10 @@ iframe {
   position: fixed;
   top: 56px;
   right: 0;
+  bottom: 55.27px;
   width: 100%;
-  height: 100%;
   overflow: scroll;
+  overflow-x: hidden;
   z-index: 3;
   background: #212529;
   padding: 1.5rem;
@@ -668,7 +660,7 @@ iframe {
 .sidebar h2 {
   text-transform: capitalize;
   text-align: center;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: 0.1rem;
   margin-bottom: 2rem;
 }
 
