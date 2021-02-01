@@ -4,8 +4,8 @@ function splitScroll() {
   console.log(width);
   if (width >= 1200) {
     new ScrollMagic.Scene({
-      offset: -50,
-      duration: 850,
+      offset: -30,
+      duration: 350,
       triggerElement: ".section_1-contents",
 
       triggerHook: -1,
