@@ -50,32 +50,20 @@ footer {
 }
 
 hr {
-  opacity: 0.7;
-  padding: 0;
-  margin-top: 1px;
-  margin-bottom: 1px;
-  border: 2px solid white;
-  box-shadow: 0px 0px 5px 2px darkgrey;
-  height: 11px !important;
-  border-radius: 10%;
-  background: linear-gradient(
-    90deg,
-    black,
-    #fffa00,
-    rgb(177, 172, 172),
-    #1abc9c,
-    #4400ff,
-    violet,
-    gold,
-    violet,
-    #4400ff,
-    #1abc9c,
-    rgb(177, 172, 172),
-    #fffa00
-  );
-  background-size: 200% 100%;
-  -webkit-animation: animated-divider 15s linear infinite;
-  animation: animated-divider 15s linear infinite alternate;
+    opacity: 0.7;
+    padding: 0;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 2px solid gold;
+    border-right: none;
+    border-left: none;
+    box-shadow: 0px 0px 5px 2px darkgrey;
+    height: 11px !important;
+    border-radius: 10%;
+    background: linear-gradient( 90deg, black, #212529, #212529, #212529, #212529, black, gold, black, #212529, #212529, #212529, #212529 );
+    background-size: 200% 100%;
+    -webkit-animation: animated-divider 15s linear infinite;
+    animation: animated-divider 15s linear infinite alternate;
 }
 
 @keyframes animated-divider {
